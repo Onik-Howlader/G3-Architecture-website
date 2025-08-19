@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Playwrite+AU+QLD:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-font{
+    font-family: "Mozilla Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}

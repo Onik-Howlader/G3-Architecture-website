@@ -8,3 +8,84 @@
     font-variation-settings:
         "wdth" 100;
 }
+
+/* shared related styles */
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 21px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+/* bg-color */
+.bg-light{
+    background-color:rgba(255, 144, 14, 0.10);
+}
+/* dark-02 */
+.bg-gray{
+    color:#424242;;
+}
+/* dark-03 */
+    .light-gary{
+        color:#727272;;
+    }
+/* header related styles */
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-bar, .banner{
+    max-width: 1440px;
+        margin: 0 auto;
+}
+/* nav related styles */
+.nav-bar{
+    justify-content: space-between;
+   align-items: center;
+}
+.nav-title{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* banner related style */
+.banner-content{
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+        margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+}
+.banner-image{
+    max-width: 100%;
+}
+
+/* Responsive media query */
+
+@media screen and (max-width:576px) {
+    
+.nav-bar, .nav-links{
+    flex-direction: column;
+}
+}
